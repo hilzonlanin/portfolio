@@ -226,7 +226,7 @@
               <h2>Excel Connects to Sql Server Database</h2>
               <p>
                 Excel workbook connected with VBA macro programming to SQL Server database table on server computer,
-                showing two buttons features to insert and delete data.
+                showing three buttons features to insert,update and delete data.
               </p>
             </div>
           </div>
@@ -352,6 +352,23 @@
         </div>
       </div>
 
+      <div id="excelazuresql" class="container dynamic-content">
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            <img src="assets/img/portfolio/vid_excel_azure.gif" style="border:0; width: 100%" alt="">
+          </div>
+          <div class="col-lg-4">
+            <div class="portfolio-description">
+              <h2>Excel Connect To Azure SQL</h2>
+              <p>
+                Excel workbook connected with VBA macro programming to Azure SQL database table on cloud service,
+                featuring three buttons for showing insert,update and delete data remotely.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
     </section><!-- End Portfolio Details Section -->
 
@@ -418,6 +435,7 @@
       else if (dynamicContent == 'azurevmwebserver') { $('#azurevmwebserver').show(); }
       else if (dynamicContent == 'azurenetsecure') { $('#azurenetsecure').show(); }
       else if (dynamicContent == 'azurekuberedis') { $('#azurekuberedis').show(); }      
+      else if (dynamicContent == 'excelazuresql') { $('#excelazuresql').show(); }      
       else {
         $('#default-content').show();
       }
