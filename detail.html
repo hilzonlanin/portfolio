@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <title>Hilzon Lanin Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -206,10 +206,7 @@
             <div class="portfolio-description">
               <h2>Excel Dashboard Send Through Outlook</h2>
               <p>
-                Excel workbook import CSV file to generate dashboard then save as PDF file as attachment in sending
-                email through Outlook application. Combined with Windows Task Scheduler for daily automatic report
-                submission to clients. Has a fully customizable dashboard report generation features and receepient
-                email list administrations.
+                The Excel workbook imports CSV files to create a dynamic dashboard, which is then saved as a PDF attachment in emails sent through Outlook. This process is integrated with the Windows Task Scheduler for daily automated report submissions to clients. It offers fully customizable dashboard report generation and allows for easy management of recipient email lists.
               </p>
             </div>
           </div>
@@ -352,6 +349,23 @@
         </div>
       </div>
 
+      <div id="etlsqlserverssisssas" class="container dynamic-content">
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            <img src="assets/img/portfolio/vid_etl_csv_ssis_ssas_excel.gif" style="border:0; width: 100%" alt="">
+          </div>
+          <div class="col-lg-4">
+            <div class="portfolio-description">
+              <h2>ETL Pipeline SQL Server SSIS SSAS</h2>
+              <p>
+                Demonstrating ETL Pipeline from source files in CSV, data transferred to SQL Server through SSIS, then deployed to OLAP cube in SSAS server, for then analyzed in Excel.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <div id="excelazuresql" class="container dynamic-content">
         <div class="row gy-4">
           <div class="col-lg-8">
@@ -368,6 +382,75 @@
           </div>
         </div>
       </div>
+
+      <div id="googleconnectazure" class="container dynamic-content">
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            <img src="assets/img/portfolio/vid_google_sheet_connect_azure.gif" style="border:0; width: 100%" alt="">
+          </div>
+          <div class="col-lg-4">
+            <div class="portfolio-description">
+              <h2>Google Sheet Connect To Azure SQL</h2>
+              <p>
+                Google Sheet connected with apps script programming to Azure SQL database table on cloud service,
+                featuring three buttons for showing insert,update and delete data remotely.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="hafihime" class="container dynamic-content">
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            <img src="assets/img/portfolio/vid_hafihime.gif" style="border:0; width: 100%" alt="">
+          </div>
+          <div class="col-lg-4">
+            <div class="portfolio-description">
+              <h2>E-commerce Store Front</h2>
+              <p>
+                E-commerce store front displaying Amazon marketplace products, created using NextJS and MongoDB Atlas at: <a href="https://web.hafihime.com">https://web.hafihime.com</a>
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="moviesearch" class="container dynamic-content">
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            <img src="assets/img/portfolio/vid_movie_search.gif" style="border:0; width: 100%" alt="">
+          </div>
+          <div class="col-lg-4">
+            <div class="portfolio-description">
+              <h2>Movie Poster Search Engine</h2>
+              <p>
+                Movie Poster Search Engine web application, created using Vite & ReactJS, accessible at <a href="https://movie-poster-search.netlify.app">https://movie-poster-search.netlify.app</a>
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="webdashboard" class="container dynamic-content">
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            <img src="assets/img/portfolio/vid_web_dashboard.gif" style="border:0; width: 100%" alt="">
+          </div>
+          <div class="col-lg-4">
+            <div class="portfolio-description">
+              <h2>Web Dashboard</h2>
+              <p>
+                Web Dashboard application, created using NextJS and React-Chart-JS, accessible at <a href="https://webapp-chart.netlify.app">https://webapp-chart.netlify.app</a>
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
 
 
     </section><!-- End Portfolio Details Section -->
@@ -402,6 +485,7 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
+  
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
@@ -436,6 +520,11 @@
       else if (dynamicContent == 'azurenetsecure') { $('#azurenetsecure').show(); }
       else if (dynamicContent == 'azurekuberedis') { $('#azurekuberedis').show(); }      
       else if (dynamicContent == 'excelazuresql') { $('#excelazuresql').show(); }      
+      else if (dynamicContent == 'googleconnectazure') { $('#googleconnectazure').show(); }      
+      else if (dynamicContent == 'etlsqlserverssisssas') { $('#etlsqlserverssisssas').show(); }   
+      else if (dynamicContent == 'hafihime') { $('#hafihime').show(); } 
+      else if (dynamicContent == 'moviesearch') { $('#moviesearch').show(); } 
+      else if (dynamicContent == 'webdashboard') { $('#webdashboard').show(); } 
       else {
         $('#default-content').show();
       }
